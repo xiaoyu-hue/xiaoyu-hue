@@ -1,5 +1,7 @@
 <div align="center">
 
+[English](./README.en.md) | **简体中文**
+
 # ✦ xiaoyu-hue
 
 ### 一个非程序员出身的普通人，正在把 AI Agent 当成一种新型生产工具，通过实际项目实验它能把非程序员的生产边界推到哪里。
@@ -7,6 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=for-the-badge&logo=github)](https://github.com/xiaoyu-hue)
 [![原创项目](https://img.shields.io/badge/原创项目-4-4FC08D?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
+[![最后更新](https://img.shields.io/badge/最后更新-2026--09-9A8CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
 
 **四个原创项目 · 全部开源 · 全部如实标注了自己做不到什么**
 
@@ -21,9 +24,11 @@
 - [第二个想法：Nymir](#第二个想法nymir)
 - [XY 系列：xy-club 与 xy-intro-card](#xy-系列xy-club-与-xy-intro-card)
 - [四个作品一览](#四个作品一览)
+- [快速开始](#快速开始)
 - [这场实验在测什么](#这场实验在测什么)
 - [我和 AI 的协作方式](#我和-ai-的协作方式)
 - [这些项目做不到什么](#这些项目做不到什么)
+- [联系与反馈](#联系与反馈)
 - [我的局限与选择](#我的局限与选择)
 
 ---
@@ -126,6 +131,7 @@
 | | |
 |---|---|
 | 🔗 xy-club 在线 | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) |
+| 🔗 xy-intro-card 在线 | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) |
 | 🛠 xy-club | Node.js · Express · JSON 存储 · 73 项测试 · MIT |
 | 🛠 xy-intro-card | 单文件 HTML，零依赖、零联网 · MIT |
 
@@ -143,7 +149,24 @@
 | 🪪 **[xy-intro-card](https://github.com/xiaoyu-hue/xy-intro-card)** | 个人介绍名片生成器，双击即用 | 单文件 · 2 种模式 | 单文件 HTML | MIT |
 
 > 另外两个仓库 `cs-self-learning-XY`、`free-programming-books-XY` 是 fork 的学习资料，不是原创作品。
-> 目前因设备原因，部分项目的维护节奏放缓，但都会继续。
+
+**维护状态（2026-09 更新）**：四个项目都还在维护，但**节奏比之前慢**——主力设备坏了，现在用备用设备更新，等买了新机器会恢复。它们没有被放弃。如果你打算正式用某一个，请先读它自己的 README。
+
+---
+
+## 快速开始
+
+四个项目都有在线版本，**不需要安装任何东西就能直接试**。
+
+| 项目 | 在线体验 | 本地运行 |
+|---|---|---|
+| 🌊 **sonder520** | [xiaoyu-hue.github.io/sonder520](https://xiaoyu-hue.github.io/sonder520/) | 克隆仓库后，浏览器直接打开 `index.html`（推荐 Chrome / Edge） |
+| ✦ **Nymir** | [xiaoyu-hue.github.io/Nymir](https://xiaoyu-hue.github.io/Nymir/) | 克隆 → `cd Nymir` → `npm install` → `npm run dev` |
+| 💎 **xy-club** | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) | 克隆 → `pnpm install`（或 `npm install`）→ `node server.js`；官网 `localhost:3000`，后台 `localhost:3000/admin` |
+| 🪪 **xy-intro-card** | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) | 下载单个 HTML 文件，双击打开即可，断网也能用 |
+
+完整的环境要求与开发命令，见各项目自己的 README。欢迎提 issue 和 PR；**Nymir** 请先读完它的安全局限再决定使用或反馈。
+> 提醒：xy-club 后台默认管理密码写在它自己的 README 里，**部署上线前务必先改掉**。
 
 ---
 
@@ -174,6 +197,16 @@
 
 </div>
 
+### 三次判断是我做的
+
+规则好写，真正说明问题的是实际发生过什么。这三个例子都来自上面四个项目的真实过程：
+
+| 发生了什么 | AI 做了什么 | 我的判断 |
+|---|---|---|
+| **第一次把项目弄上线** | 推荐了好几个静态部署平台 | 它给的是候选清单，不是命令。我第一个亲自部署选了 **Netlify**；免费额度用完后，又自己配了 GitHub Pages 和 Cloudflare Pages。 |
+| **水墨＋液态玻璃能不能揉在一起** | 没法保证两种风格能融合 | 我想要，就直接试了。试出来真的可以，还成了 sonder520 整站的视觉基调。**有时候"先试再问"才是对的顺序。** |
+| **给 Nymir 的安全划边界** | 顺利写出了加密代码（X25519、HKDF、Ed25519） | 代码不等于担保。我不是密码学专家，所以"未经专业安全审计""不建议用于真实敏感场景"这两句话，是我自己写进 README 的。**AI 的能力边界，得由我来划。** |
+
 这套规则写在每个项目的 `AGENTS.md` 里：需求确认后再开工、大任务拆成可验证的小步骤逐一交付、技术选型附理由并经我批准、不可逆操作（删文件、覆盖代码、付费服务、公开发布）必须先问我、如实说明不确定性、提出方案时必须讲清权衡取舍。
 
 **代码是 AI 写的，判断是我做的。**
@@ -195,6 +228,22 @@
 
 ---
 
+## 联系与反馈
+
+很高兴你能看到这里。欢迎反馈，也欢迎告诉我这些项目被怎么用了。
+
+| | |
+|---|---|
+| 💬 Bug 与想法 | 在对应仓库提 issue。请写清"你做了什么、期望什么、实际发生了什么"，有截图最好 |
+| 🤝 Pull Request | 欢迎。涉及结构改动（架构、依赖、安全相关代码）请先开 issue 对齐方向，再动手写代码 |
+| 🌏 语言 | 中文、英文 issue 都可以。英文写得简单也没关系，我会借助 AI 阅读 |
+| 🙅 不接的 | 付费定制开发、帮别人做安全审计、作业代做、"帮我改我的代码" |
+| ⚠️ 关于 Nymir | 请不要用它聊真正敏感的事，理由见上面的局限。安全问题欢迎讨论，但那不构成担保 |
+
+回复可能会慢：我现在用备用设备维护这些项目，所有事都是我一个人在做。
+
+---
+
 ## 我的局限与选择
 
 我很清楚自己最大的局限：**缺少编程的硬性技术，很多事情都依赖 AI**。AI 给我建议，我觉得好就采纳，觉得不好就问它还有没有别的方案——就这样一步步做了四个项目。
@@ -212,5 +261,11 @@
 <div align="center">
 
 *AI 时代的个体赋能，祝我们共同见证未来的 AGI，共同见证人类的第四次工业革命。*
+
+---
+
+[English](./README.en.md) | **简体中文**
+
+*最后更新：2026-09*
 
 </div>
