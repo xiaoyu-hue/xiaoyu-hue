@@ -4,10 +4,10 @@
 
 # ✦ xiaoyu-hue
 
-### 一个非程序员出身的普通人，正在把 AI Agent 当成一种新型生产工具，通过实际项目实验它能把非程序员的生产边界推到哪里。
+*一个非程序员出身的普通人，正在把 AI Agent 当成一种新型生产工具，通过实际项目实验它能把非程序员的生产边界推到哪里。*
 
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=for-the-badge&logo=github)](https://github.com/xiaoyu-hue)
-[![原创项目](https://img.shields.io/badge/原创项目-4-4FC08D?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
+[![原创项目](https://img.shields.io/badge/原创项目-4-5B6CD8?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
 [![最后更新](https://img.shields.io/badge/最后更新-2026--09-9A8CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
 
@@ -141,12 +141,52 @@
 
 ## 四个作品一览
 
-| 项目 | 它是什么 | 规模 | 技术栈 | 协议 |
-|---|---|---|---|---|
-| 🌊 **[sonder520](https://github.com/xiaoyu-hue/sonder520)** | 本地个人工作与生活管理工具，数据只存在你的浏览器 | 12 模块 · 770+ 测试 · v6.x | HTML/CSS/原生 JS · IndexedDB · PWA | MIT |
-| ✦ **[Nymir](https://github.com/xiaoyu-hue/Nymir)** | 匿名树洞 · P2P 加密聊天 · 阅读即焚 | 293 测试 · v1.6.x | React 19 · TypeScript · Vite · WebRTC | AGPL-3.0 |
-| 💎 **[xy-club](https://github.com/xiaoyu-hue/xy-club)** | 可复用的俱乐部官网模板 + 可视化后台 | 7 种板块 · 4 套主题 · 73 测试 | Node.js · Express · JSON | MIT |
-| 🪪 **[xy-intro-card](https://github.com/xiaoyu-hue/xy-intro-card)** | 个人介绍名片生成器，双击即用 | 单文件 · 2 种模式 | 单文件 HTML | MIT |
+<div align="center">∙ ∙ ∙</div>
+
+<table border="1" cellpadding="16" cellspacing="0" width="100%">
+<tr>
+<td align="center" width="50%">
+
+🌊 &nbsp; <b><a href="https://github.com/xiaoyu-hue/sonder520">sonder520</a></b>
+<br><br>
+本地个人工作与生活管理工具，数据只存在你的浏览器
+<br><br>
+<code>12 模块</code> · <code>770+ 测试</code> · <code>v6.x</code> · MIT
+
+</td>
+<td align="center" width="50%">
+
+✦ &nbsp; <b><a href="https://github.com/xiaoyu-hue/Nymir">Nymir</a></b>
+<br><br>
+匿名树洞 · P2P 加密聊天 · 阅读即焚
+<br><br>
+<code>293 测试</code> · <code>v1.6.x</code> · AGPL-3.0
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+💎 &nbsp; <b><a href="https://github.com/xiaoyu-hue/xy-club">xy-club</a></b>
+<br><br>
+可复用的俱乐部官网模板 + 可视化后台
+<br><br>
+<code>7 种板块</code> · <code>4 套主题</code> · <code>73 测试</code> · MIT
+
+</td>
+<td align="center" width="50%">
+
+🪪 &nbsp; <b><a href="https://github.com/xiaoyu-hue/xy-intro-card">xy-intro-card</a></b>
+<br><br>
+个人介绍名片生成器，双击即用
+<br><br>
+<code>单文件</code> · <code>2 种模式</code> · MIT
+
+</td>
+</tr>
+</table>
+
+<div align="center">∙ ∙ ∙</div>
 
 > 另外两个仓库 `cs-self-learning-XY`、`free-programming-books-XY` 是 fork 的学习资料，不是原创作品。
 
@@ -209,7 +249,11 @@
 
 这套规则写在每个项目的 `AGENTS.md` 里：需求确认后再开工、大任务拆成可验证的小步骤逐一交付、技术选型附理由并经我批准、不可逆操作（删文件、覆盖代码、付费服务、公开发布）必须先问我、如实说明不确定性、提出方案时必须讲清权衡取舍。
 
-**代码是 AI 写的，判断是我做的。**
+<div align="center">
+
+> ### **代码是 AI 写的，判断是我做的。**
+
+</div>
 
 ---
 
@@ -252,7 +296,11 @@
 
 所以你会在这些仓库里看到一些少见的东西：README 里写着"不适合什么场景"、写着"已知局限"、写着"未经专业安全审计"。
 
-**这不是谦虚，是如实标注。**
+<div align="center">
+
+> ### **这不是谦虚，是如实标注。**
+
+</div>
 
 **引用我最喜欢的一句话献给我也献给光临寒舍的各位大佬们“去好奇 去探索 去试试 去检验” 诸君共勉之**
 
