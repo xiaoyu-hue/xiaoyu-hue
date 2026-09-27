@@ -4,10 +4,10 @@
 
 # ✦ xiaoyu-hue
 
-### An ordinary person with no programming background, treating AI Agents as a new kind of production tool — and using real projects to test how far they can push the boundaries of what a non-programmer can build.
+*An ordinary person with no programming background, treating AI Agents as a new kind of production tool — and using real projects to test how far they can push the boundaries of what a non-programmer can build.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=for-the-badge&logo=github)](https://github.com/xiaoyu-hue)
-[![Original Projects](https://img.shields.io/badge/Original%20Projects-4-4FC08D?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
+[![Original Projects](https://img.shields.io/badge/Original%20Projects-4-5B6CD8?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
 [![Last update](https://img.shields.io/badge/Last%20update-Sep%202026-9A8CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
 
@@ -35,12 +35,52 @@
 
 ## All Four Projects at a Glance
 
-| Project | What it is | Scale | Tech stack | License |
-|---|---|---|---|---|
-| 🌊 **[sonder520](https://github.com/xiaoyu-hue/sonder520)** | Local personal work & life management tool; your data never leaves your browser | 12 modules · 770+ tests · v6.x | HTML/CSS/vanilla JS · IndexedDB · PWA | MIT |
-| ✦ **[Nymir](https://github.com/xiaoyu-hue/Nymir)** | Anonymous tree hole · P2P encrypted chat · messages vanish when read | 293 tests · v1.6.x | React 19 · TypeScript · Vite · WebRTC | AGPL-3.0 |
-| 💎 **[xy-club](https://github.com/xiaoyu-hue/xy-club)** | Reusable club website template + visual admin panel | 7 section types · 4 themes · 73 tests | Node.js · Express · JSON | MIT |
-| 🪪 **[xy-intro-card](https://github.com/xiaoyu-hue/xy-intro-card)** | Personal intro card generator; just double-click to use | Single file · 2 modes | Single-file HTML | MIT |
+<div align="center">∙ ∙ ∙</div>
+
+<table border="1" cellpadding="16" cellspacing="0" width="100%">
+<tr>
+<td align="center" width="50%">
+
+🌊 &nbsp; <b><a href="https://github.com/xiaoyu-hue/sonder520">sonder520</a></b>
+<br><br>
+Local personal work &amp; life OS — your data never leaves your browser
+<br><br>
+<code>12 modules</code> · <code>770+ tests</code> · <code>v6.x</code> · MIT
+
+</td>
+<td align="center" width="50%">
+
+✦ &nbsp; <b><a href="https://github.com/xiaoyu-hue/Nymir">Nymir</a></b>
+<br><br>
+Anonymous tree hole · P2P encrypted chat · messages vanish when read
+<br><br>
+<code>293 tests</code> · <code>v1.6.x</code> · AGPL-3.0
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+💎 &nbsp; <b><a href="https://github.com/xiaoyu-hue/xy-club">xy-club</a></b>
+<br><br>
+Reusable club website template + visual admin panel
+<br><br>
+<code>7 sections</code> · <code>4 themes</code> · <code>73 tests</code> · MIT
+
+</td>
+<td align="center" width="50%">
+
+🪪 &nbsp; <b><a href="https://github.com/xiaoyu-hue/xy-intro-card">xy-intro-card</a></b>
+<br><br>
+Personal intro card generator — one HTML file, double-click to use
+<br><br>
+<code>Single file</code> · <code>2 modes</code> · MIT
+
+</td>
+</tr>
+</table>
+
+<div align="center">∙ ∙ ∙</div>
 
 **Maintenance status (updated Sep 2026):** all four projects are still maintained, but at a **slower pace than before** — my main device broke, and I'm updating from a backup one until I can get a new machine. They are not abandoned. If you're deciding whether to depend on one of them, please read its own README first.
 
@@ -208,7 +248,11 @@ Rules are easy to write down; what matters is what actually happened. Three real
 
 These rules live in an `AGENTS.md` in every project: confirm requirements before starting work; break big tasks into small, verifiable steps delivered one by one; every tech choice must come with a reason and my approval; irreversible actions (deleting files, overwriting code, paid services, public releases) require my consent first; uncertainty must be stated honestly; every proposal must explain its trade-offs.
 
-**The code is written by AI. The judgment is mine.**
+<div align="center">
+
+> ### **The code is written by AI.<br>The judgment is mine.**
+
+</div>
 
 ---
 
@@ -251,7 +295,11 @@ I've also wrestled with doubt: am I taking up public space on GitHub? Should I s
 
 That's why you'll find some uncommon things in these repositories: READMEs that state "what this is not suitable for," "known limitations," and "no professional security audit."
 
-**That's not modesty. That's honest labeling.**
+<div align="center">
+
+> ### **That's not modesty.<br>That's honest labeling.**
+
+</div>
 
 **In the words of my favorite saying — offered to myself, and to everyone who visits this little corner of GitHub: "Stay curious. Keep exploring. Give it a try. Put it to the test." May we all keep going.**
 
