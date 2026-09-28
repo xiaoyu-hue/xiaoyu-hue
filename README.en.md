@@ -45,7 +45,7 @@
 <br><br>
 Local personal work &amp; life OS — your data never leaves your browser
 <br><br>
-<code>12 modules</code> · <code>770+ tests</code> · <code>v6.x</code> · MIT
+<code>12 modules</code> · <code>776 tests</code> · <code>v6.x</code> · MIT
 
 </td>
 <td align="center" width="50%">
@@ -65,7 +65,7 @@ Anonymous tree hole · P2P encrypted chat · messages vanish when read
 <br><br>
 Reusable club website template + visual admin panel
 <br><br>
-<code>7 sections</code> · <code>4 themes</code> · <code>73 tests</code> · MIT
+<code>8 sections</code> · <code>4 themes</code> · <code>123 tests</code> · MIT
 
 </td>
 <td align="center" width="50%">
@@ -113,7 +113,7 @@ I have no plans to become a programmer. I build these projects to answer one con
 
 > **When the production tool changes from "programming languages" to "AI Agents," how far can a non-programmer actually go?**
 
-The four projects below are four answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all four have live sites, the main projects pass CI test gates, and sonder520 alone runs 770+ tests.
+The four projects below are four answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all four have live sites, the main projects pass CI test gates, and sonder520 alone runs 776 tests.
 
 ---
 
@@ -141,7 +141,7 @@ The tutorial version could only run on my own machine, and I wanted other people
 
 ### From Workspace to Personal OS
 
-From v1.0, step by step, to v6.x: 12 modules, 770+ tests, PWA offline support, optional encrypted storage. The modules are nearly enough — but cross-module collaboration still has plenty of room to grow.
+From v1.0, step by step, to v6.x: 12 modules, 776 tests, PWA offline support, optional encrypted storage. The modules are nearly enough — but cross-module collaboration still has plenty of room to grow.
 
 I don't think it can be called a "personal workspace" anymore. It's closer to a **personal OS**.
 
@@ -202,7 +202,7 @@ Another tool from the same family: personal intro cards for members. A zero-depe
 |---|---|
 | 🔗 xy-club Live | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) |
 | 🔗 xy-intro-card Live | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) |
-| 🛠 xy-club | Node.js · Express · JSON storage · 73 tests · MIT |
+| 🛠 xy-club | Node.js · Express · JSON storage · 123 tests · MIT |
 | 🛠 xy-intro-card | Single-file HTML — zero dependencies, zero network · MIT |
 
 > `XY` is just the naming prefix for this project series. **The "XY Club" is the default demo case, not a dedicated brand** — swap in any club or team's content, and the tool logic stays exactly the same.
@@ -215,7 +215,7 @@ The four projects were not built at random. Each one answers a specific question
 
 | Project | The boundary it probes |
 |---|---|
-| **sonder520** | How much engineering discipline can a non-programmer's project have? — 770+ tests, 14 ADRs, layered architecture, CI gates |
+| **sonder520** | How much engineering discipline can a non-programmer's project have? — 776 tests, 14 ADRs, layered architecture, CI gates |
 | **Nymir** | Can someone with zero background work with cryptography? — End-to-end encryption runs fine, but it's also the project that demands the most of your caution |
 | **xy-club** | How low can the bar go for a good-looking, easy-to-edit, easy-to-deploy website? — Zero build, zero database, one JSON file drives the whole site |
 | **xy-intro-card** | How simple can a tool be? — One HTML file; double-click to open, ready to use |
