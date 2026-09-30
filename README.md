@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=flat-square&logo=github)](https://github.com/xiaoyu-hue)
 [![原创项目](https://img.shields.io/badge/原创项目-4-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
-[![最后更新](https://img.shields.io/badge/最后更新-2026--09-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
+[![最后更新](https://img.shields.io/badge/最后更新-2026--10-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
 **四个原创项目 · 全部开源 · 都尽量如实标注了各自的局限**
 
@@ -316,6 +316,6 @@
 
 [English](./README.en.md) | **简体中文**
 
-*最后更新：2026-09*
+*最后更新：2026-10*
 
 </div>
