@@ -6,10 +6,10 @@
 
 *一个非程序员出身的普通人，正在把 AI Agent 当成一种新型生产工具，通过实际项目实验它能把非程序员的生产边界推到哪里。*
 
-[![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=for-the-badge&logo=github)](https://github.com/xiaoyu-hue)
-[![原创项目](https://img.shields.io/badge/原创项目-4-5B6CD8?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
-[![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
-[![最后更新](https://img.shields.io/badge/最后更新-2026--09-9A8CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
+[![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=flat-square&logo=github)](https://github.com/xiaoyu-hue)
+[![原创项目](https://img.shields.io/badge/原创项目-4-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
+[![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
+[![最后更新](https://img.shields.io/badge/最后更新-2026--09-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
 **四个原创项目 · 全部开源 · 全部如实标注了自己做不到什么**
 
@@ -43,7 +43,7 @@
 
 > **当生产工具从"编程语言"换成"AI Agent"，一个非程序员到底能走多远？**
 
-下面四个项目就是这个问题的四份答卷。它们不是教程练手作品，是真实在跑、真实有人用的东西——三个有在线站点，主要项目都带 CI 测试门禁，光 sonder520 一个就跑了 776 项测试。
+下面四个项目就是这个问题的四份答卷。它们不是教程练手作品，是真实在跑、真实有人用的东西——四个都有在线站点，主要项目都带 CI 测试门禁，光 sonder520 一个就跑了 776 项测试。
 
 ---
 
@@ -171,7 +171,7 @@
 <br><br>
 可复用的俱乐部官网模板 + 可视化后台
 <br><br>
-<code>8 种板块</code> · <code>4 套主题</code> · <code>123 测试</code> · MIT
+<code>7 种板块</code> · <code>8 套主题</code> · <code>123 测试</code> · MIT
 
 </td>
 <td align="center" width="50%">
@@ -216,7 +216,7 @@
 
 | 项目 | 它在测的边界 |
 |---|---|
-| **sonder520** | 非程序员做的东西，能有多少工程纪律？——776 项测试、14 份 ADR、分层架构、CI 门禁 |
+| **sonder520** | 非程序员做的东西，能有多少工程纪律？——776 项测试、15 份 ADR、分层架构、CI 门禁 |
 | **Nymir** | 零基础的人能不能碰密码学？——端到端加密跑通了，但它也是最需要你保持警惕的一个 |
 | **xy-club** | 做一个好看、好改、好部署的官网，门槛能压到多低？——零构建、零数据库、单个 JSON 驱动整站 |
 | **xy-intro-card** | 工具能简单到什么程度？——一个 HTML 文件，双击打开就能用 |
