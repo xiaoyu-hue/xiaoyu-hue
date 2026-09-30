@@ -11,7 +11,9 @@
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 [![Last update](https://img.shields.io/badge/Last%20update-Sep%202026-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
-**Four original projects · All open source · All honestly documenting what they can't do**
+**Four original projects · All open source · Each tries to honestly document its own limits**
+
+[📝 My site →](https://xiaoyu-hue.github.io/)
 
 </div>
 
@@ -90,7 +92,7 @@ Personal intro card generator — one HTML file, double-click to use
 
 ## Quick Start
 
-Every project has a live version — you don't need to install anything to try them.
+Every project has a live version — you can usually try them without installing anything.
 
 | Project | Try it online | Run it locally |
 |---|---|---|
@@ -157,7 +159,7 @@ I don't think it can be called a "personal workspace" anymore. It's closer to a 
 
 After finishing sonder520, another question was on my mind:
 
-> Is there a place to talk things out that puts safety, privacy, and anonymity first — one that **no centralized server can ever log**?
+> Is there a place to talk things out that puts safety, privacy, and anonymity first — one where **your chat content isn't kept on any business server**?
 
 Chat apps like WhatsApp, Telegram, Discord, QQ and WeChat are centralized services: your chat history usually sits on their servers. Nymir has no business servers and doesn't record your data — your data lives only in your own browser. Anonymity is built on end-to-end encryption, names are randomly generated, and there is no sign-up.
 
@@ -190,9 +192,9 @@ After building two things for myself, I wanted to build something **other people
 
 ### xy-club: A Club Website Template
 
-Most club websites out there are either ugly, hard to customize, or a pain to deploy. I wanted to prove one point: **zero build, zero dependencies, a single JSON file — and you can still get a liquid-glass website with micro-interactions, a visual admin panel, and pure static hosting, as a reusable template.**
+Most club websites out there are either ugly, hard to customize, or a pain to deploy. I wanted to test one idea: **zero build, zero dependencies, a single JSON file — can you still get a liquid-glass website with micro-interactions, a visual admin panel, and pure static hosting, as a reusable template?**
 
-The public site and the admin panel share a single JSON data file: whatever you change in the admin panel is instantly what the site shows. No rebuild, no coding. **Switch to another club: change the content, change the theme — never the code.**
+The public site and the admin panel share a single JSON data file: whatever you change in the admin panel is instantly what the site shows. No rebuild, no coding. **Switch to another club: change the content, change the theme — and you usually won't touch the code.**
 
 ### xy-intro-card: A Personal Intro Card Generator
 
@@ -243,7 +245,7 @@ Rules are easy to write down; what matters is what actually happened. Three real
 | What happened | What the AI did | What I decided |
 |---|---|---|
 | **Going online for the first time** | Recommended several static hosting platforms | It gave me a shortlist, not an order. I picked **Netlify** for my first deployment and did it myself. When I ran out of free deployments, I moved on to GitHub Pages and Cloudflare Pages. |
-| **Mixing ink-wash with liquid glass** | Couldn't promise the two styles would work together | I wanted it, so I just tried. It worked — and that combination became sonder520's entire visual identity. **Sometimes "try first, ask later" is the right order.** |
+| **Mixing ink-wash with liquid glass** | Couldn't promise the two styles would work together | I wanted it, so I just tried. It worked — and that combination became sonder520's entire visual identity. **Sometimes "try first, ask later" is the smoother order.** |
 | **Drawing the line on Nymir's security** | Wrote the crypto code (X25519, HKDF, Ed25519) without difficulty | Code is not a guarantee. I'm not a cryptographer, so I wrote "no professional security audit" and "not recommended for real sensitive use" into the README myself. **AI's capability boundary is something I have to draw.** |
 
 These rules live in an `AGENTS.md` in every project: confirm requirements before starting work; break big tasks into small, verifiable steps delivered one by one; every tech choice must come with a reason and my approval; irreversible actions (deleting files, overwriting code, paid services, public releases) require my consent first; uncertainty must be stated honestly; every proposal must explain its trade-offs.
@@ -297,17 +299,17 @@ That's why you'll find some uncommon things in these repositories: READMEs that 
 
 <div align="center">
 
-> ### **That's not modesty.<br>That's honest labeling.**
+> ### **It's less about modesty,<br>more about stating the boundaries.**
 
 </div>
 
-**In the words of my favorite saying — offered to myself, and to everyone who visits this little corner of GitHub: "Stay curious. Keep exploring. Give it a try. Put it to the test." May we all keep going.**
+**A saying I like, and want to pass on: "Stay curious. Keep exploring. Give it a try. Put it to the test."**
 
 ---
 
 <div align="center">
 
-*Individual empowerment in the AI era. May we witness the AGI of the future together — and humanity's fourth industrial revolution.*
+*Individual empowerment in the AI era — let's see, slowly, how far it can take an ordinary person.*
 
 ---
 
