@@ -6,10 +6,10 @@
 
 *An ordinary person with no programming background, treating AI Agents as a new kind of production tool — and using real projects to test how far they can push the boundaries of what a non-programmer can build.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=for-the-badge&logo=github)](https://github.com/xiaoyu-hue)
-[![Original Projects](https://img.shields.io/badge/Original%20Projects-4-5B6CD8?style=for-the-badge)](https://github.com/xiaoyu-hue?tab=repositories)
-[![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
-[![Last update](https://img.shields.io/badge/Last%20update-Sep%202026-9A8CFF?style=for-the-badge)](https://github.com/xiaoyu-hue)
+[![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=flat-square&logo=github)](https://github.com/xiaoyu-hue)
+[![Original Projects](https://img.shields.io/badge/Original%20Projects-4-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
+[![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
+[![Last update](https://img.shields.io/badge/Last%20update-Sep%202026-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
 **Four original projects · All open source · All honestly documenting what they can't do**
 
@@ -65,7 +65,7 @@ Anonymous tree hole · P2P encrypted chat · messages vanish when read
 <br><br>
 Reusable club website template + visual admin panel
 <br><br>
-<code>8 sections</code> · <code>4 themes</code> · <code>123 tests</code> · MIT
+<code>7 sections</code> · <code>8 themes</code> · <code>123 tests</code> · MIT
 
 </td>
 <td align="center" width="50%">
@@ -215,7 +215,7 @@ The four projects were not built at random. Each one answers a specific question
 
 | Project | The boundary it probes |
 |---|---|
-| **sonder520** | How much engineering discipline can a non-programmer's project have? — 776 tests, 14 ADRs, layered architecture, CI gates |
+| **sonder520** | How much engineering discipline can a non-programmer's project have? — 776 tests, 15 ADRs, layered architecture, CI gates |
 | **Nymir** | Can someone with zero background work with cryptography? — End-to-end encryption runs fine, but it's also the project that demands the most of your caution |
 | **xy-club** | How low can the bar go for a good-looking, easy-to-edit, easy-to-deploy website? — Zero build, zero database, one JSON file drives the whole site |
 | **xy-intro-card** | How simple can a tool be? — One HTML file; double-click to open, ready to use |
