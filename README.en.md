@@ -34,6 +34,7 @@
 - [What These Projects Can't Do](#what-these-projects-cant-do)
 - [Contact and Feedback](#contact-and-feedback)
 - [My Limitations and Choices](#my-limitations-and-choices)
+- [License](#license)
 
 ---
 
@@ -366,6 +367,18 @@ That's why you'll find some uncommon things in these repositories: READMEs that 
 </div>
 
 **A saying I like, and want to pass on: "Stay curious. Keep exploring. Give it a try. Put it to the test."**
+
+---
+
+## License
+
+This repository (xiaoyu-hue/xiaoyu-hue, the source repo for the personal homepage) is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+- You may: **share**, **repost**, and create **non-commercial** adaptations of this repository's content, provided you give **attribution**.
+- You may not: use this repository's content for **commercial purposes** (e.g., direct sale, or profit-driven redistribution).
+- Each sub-project (sonder520, Nymir, xy-club, xy-intro-card, jiuxi, shinian) carries its own separate open-source license — please refer to the `LICENSE` file in each project's repository. The CC BY-NC 4.0 here covers **only this repository's own** text and layout.
+
+The full license text is in the [`LICENSE`](./LICENSE) file at the repository root, or see <https://creativecommons.org/licenses/by-nc/4.0/>.
 
 ---
 
