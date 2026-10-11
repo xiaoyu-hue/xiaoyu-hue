@@ -84,7 +84,7 @@
 |---|---|
 | 🔗 在线 | [xiaoyu-hue.github.io/sonder520](https://xiaoyu-hue.github.io/sonder520/) |
 | 🛠 技术 | HTML / CSS / 原生 JS · IndexedDB · WebCrypto · PWA，零运行时依赖、零构建 |
-| 📄 协议 | MIT |
+| 📄 协议 | MIT（代码）/ CC BY 4.0（文档） |
 
 ---
 
@@ -115,7 +115,7 @@
 |---|---|
 | 🔗 在线 | [xiaoyu-hue.github.io/Nymir](https://xiaoyu-hue.github.io/Nymir/) |
 | 🛠 技术 | React 19 · TypeScript · Vite · Trystero / WebRTC · 293 项测试 |
-| 📄 协议 | AGPL-3.0 |
+| 📄 协议 | AGPL-3.0（代码）/ CC BY-NC-SA 4.0（文档） |
 
 ---
 
@@ -137,8 +137,8 @@
 |---|---|
 | 🔗 xy-club 在线 | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) |
 | 🔗 xy-intro-card 在线 | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) |
-| 🛠 xy-club | Node.js · Express · JSON 存储 · 123 项测试 · MIT |
-| 🛠 xy-intro-card | 单文件 HTML，零依赖、零联网 · MIT |
+| 🛠 xy-club | Node.js · Express · JSON 存储 · 123 项测试 · MIT（代码）/ CC BY 4.0（文档） |
+| 🛠 xy-intro-card | 单文件 HTML，零依赖、零联网 · MIT（代码）/ CC BY 4.0（文档） |
 
 > `XY` 只是项目系列的命名前缀，**XY俱乐部是默认演示案例，不是专属品牌**——把演示内容换成任意俱乐部/团队，工具逻辑完全不变。
 
@@ -174,7 +174,7 @@
 |---|---|
 | 🔗 在线 | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
 | 🛠 技术 | TypeScript（esbuild 编译进 IIFE）· 原生 JS 零构建 · Capacitor 安卓封装 · 本地优先 + 可选加密存储 |
-| 📄 协议 | MIT |
+| 📄 协议 | MIT（代码）/ CC BY-NC-SA 4.0（文档） |
 
 ---
 
@@ -190,7 +190,7 @@
 <br><br>
 本地个人工作与生活管理工具，数据只存在你的浏览器
 <br><br>
-<code>12 模块</code> · <code>776 测试</code> · <code>v6.x</code> · MIT
+<code>12 模块</code> · <code>776 测试</code> · <code>v6.x</code> · MIT（代码）/ CC BY 4.0（文档）
 
 </td>
 <td align="center" width="50%">
@@ -199,7 +199,7 @@
 <br><br>
 匿名树洞 · P2P 加密聊天 · 阅读即焚
 <br><br>
-<code>293 测试</code> · <code>v1.6.x</code> · AGPL-3.0
+<code>293 测试</code> · <code>v1.6.x</code> · AGPL-3.0（代码）/ CC BY-NC-SA 4.0（文档）
 
 </td>
 </tr>
@@ -210,7 +210,7 @@
 <br><br>
 可复用的俱乐部官网模板 + 可视化后台
 <br><br>
-<code>7 种板块</code> · <code>8 套主题</code> · <code>123 测试</code> · MIT
+<code>7 种板块</code> · <code>8 套主题</code> · <code>123 测试</code> · MIT（代码）/ CC BY 4.0（文档）
 
 </td>
 <td align="center" width="50%">
@@ -219,7 +219,7 @@
 <br><br>
 个人介绍名片生成器，双击即用
 <br><br>
-<code>单文件</code> · <code>2 种模式</code> · MIT
+<code>单文件</code> · <code>2 种模式</code> · MIT（代码）/ CC BY 4.0（文档）
 
 </td>
 </tr>
@@ -230,7 +230,7 @@
 <br><br>
 AI 信息聚集地 · 时间线 / 工具箱 / 读书推荐
 <br><br>
-<code>192 时间线</code> · <code>40 工具</code> · <code>37 书</code> · Apache-2.0
+<code>192 时间线</code> · <code>40 工具</code> · <code>37 书</code> · Apache-2.0（代码）/ CC BY-NC 4.0（内容）
 
 </td>
 <td align="center" width="50%">
@@ -239,7 +239,7 @@ AI 信息聚集地 · 时间线 / 工具箱 / 读书推荐
 <br><br>
 手机里的活窗景 · 流动天空 + 时钟倒数日
 <br><br>
-<code>安卓 App</code> · <code>网页版</code> · 本地优先 · MIT
+<code>安卓 App</code> · <code>网页版</code> · 本地优先 · MIT（代码）/ CC BY-NC-SA 4.0（文档）
 
 </td>
 </tr>
@@ -377,7 +377,7 @@ AI 信息聚集地 · 时间线 / 工具箱 / 读书推荐
 
 - 你可以：**署名**后分享、转载，或基于本仓库内容做**非商业**用途的再创作。
 - 你不可以：将本仓库内容用于**商业目的**（如直接售卖、以盈利为导向的二次分发）。
-- 各子项目（sonder520、Nymir、xy-club、xy-intro-card、九溪 jiuxi、时念 shinian）有各自独立的开源许可证，请以各项目仓库内的 `LICENSE` 文件为准——本仓库的 CC BY-NC 4.0 只覆盖**本仓库自身**的文字与编排内容。
+- 各子项目（sonder520、Nymir、xy-club、xy-intro-card、九溪 jiuxi、时念 shinian）的代码与文档采用各自独立的许可证，且**代码与文档往往不是同一个许可证**（例如多数项目的文档为 CC 系列、九溪内容为非商业）。请以各项目仓库内的 `LICENSE` 与 `LICENSE-DOCS` 文件为准——本仓库的 CC BY-NC 4.0 只覆盖**本仓库自身**的文字与编排内容。
 
 许可证完整文本见仓库根目录 [`LICENSE`](./LICENSE) 文件，或访问 <https://creativecommons.org/licenses/by-nc/4.0/deed.zh>。
 

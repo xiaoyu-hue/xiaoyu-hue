@@ -50,7 +50,7 @@
 <br><br>
 Local personal work &amp; life OS — your data never leaves your browser
 <br><br>
-<code>12 modules</code> · <code>776 tests</code> · <code>v6.x</code> · MIT
+<code>12 modules</code> · <code>776 tests</code> · <code>v6.x</code> · MIT (code) / CC BY 4.0 (docs)
 
 </td>
 <td align="center" width="50%">
@@ -59,7 +59,7 @@ Local personal work &amp; life OS — your data never leaves your browser
 <br><br>
 Anonymous tree hole · P2P encrypted chat · messages vanish when read
 <br><br>
-<code>293 tests</code> · <code>v1.6.x</code> · AGPL-3.0
+<code>293 tests</code> · <code>v1.6.x</code> · AGPL-3.0 (code) / CC BY-NC-SA 4.0 (docs)
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ Anonymous tree hole · P2P encrypted chat · messages vanish when read
 <br><br>
 Reusable club website template + visual admin panel
 <br><br>
-<code>7 sections</code> · <code>8 themes</code> · <code>123 tests</code> · MIT
+<code>7 sections</code> · <code>8 themes</code> · <code>123 tests</code> · MIT (code) / CC BY 4.0 (docs)
 
 </td>
 <td align="center" width="50%">
@@ -79,7 +79,7 @@ Reusable club website template + visual admin panel
 <br><br>
 Personal intro card generator — one HTML file, double-click to use
 <br><br>
-<code>Single file</code> · <code>2 modes</code> · MIT
+<code>Single file</code> · <code>2 modes</code> · MIT (code) / CC BY 4.0 (docs)
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Personal intro card generator — one HTML file, double-click to use
 <br><br>
 AI info hub · timeline / toolbox / reading
 <br><br>
-<code>192 timeline</code> · <code>40 tools</code> · <code>37 books</code> · Apache-2.0
+<code>192 timeline</code> · <code>40 tools</code> · <code>37 books</code> · Apache-2.0 (code) / CC BY-NC 4.0 (content)
 
 </td>
 <td align="center" width="50%">
@@ -99,7 +99,7 @@ AI info hub · timeline / toolbox / reading
 <br><br>
 Live sky on your phone · flowing sky + clock &amp; countdown
 <br><br>
-<code>Android App</code> · <code>Web</code> · local-first · MIT
+<code>Android App</code> · <code>Web</code> · local-first · MIT (code) / CC BY-NC-SA 4.0 (docs)
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ I don't think it can be called a "personal workspace" anymore. It's closer to a 
 |---|---|
 | 🔗 Live | [xiaoyu-hue.github.io/sonder520](https://xiaoyu-hue.github.io/sonder520/) |
 | 🛠 Tech | HTML / CSS / vanilla JS · IndexedDB · WebCrypto · PWA — zero runtime dependencies, zero build |
-| 📄 License | MIT |
+| 📄 License | MIT (code) / CC BY 4.0 (docs) |
 
 ---
 
@@ -207,7 +207,7 @@ Of course, **this is not absolutely secure**. The stack is cutting-edge (X25519 
 |---|---|
 | 🔗 Live | [xiaoyu-hue.github.io/Nymir](https://xiaoyu-hue.github.io/Nymir/) |
 | 🛠 Tech | React 19 · TypeScript · Vite · Trystero / WebRTC · 293 tests |
-| 📄 License | AGPL-3.0 |
+| 📄 License | AGPL-3.0 (code) / CC BY-NC-SA 4.0 (docs) |
 
 ---
 
@@ -229,8 +229,8 @@ Another tool from the same family: personal intro cards for members. A zero-depe
 |---|---|
 | 🔗 xy-club Live | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) |
 | 🔗 xy-intro-card Live | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) |
-| 🛠 xy-club | Node.js · Express · JSON storage · 123 tests · MIT |
-| 🛠 xy-intro-card | Single-file HTML — zero dependencies, zero network · MIT |
+| 🛠 xy-club | Node.js · Express · JSON storage · 123 tests · MIT (code) / CC BY 4.0 (docs) |
+| 🛠 xy-intro-card | Single-file HTML — zero dependencies, zero network · MIT (code) / CC BY 4.0 (docs) |
 
 > `XY` is just the naming prefix for this project series. **The "XY Club" is the default demo case, not a dedicated brand** — swap in any club or team's content, and the tool logic stays exactly the same.
 
@@ -266,7 +266,7 @@ It's mobile-first: an Android app (Capacitor-wrapped) plus a web version, local-
 |---|---|
 | 🔗 Live | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
 | 🛠 Tech | TypeScript (esbuild into IIFE) · vanilla JS, zero build · Capacitor Android wrapper · local-first + optional encrypted storage |
-| 📄 License | MIT |
+| 📄 License | MIT (code) / CC BY-NC-SA 4.0 (docs) |
 
 ---
 
@@ -376,7 +376,7 @@ This repository (xiaoyu-hue/xiaoyu-hue, the source repo for the personal homepag
 
 - You may: **share**, **repost**, and create **non-commercial** adaptations of this repository's content, provided you give **attribution**.
 - You may not: use this repository's content for **commercial purposes** (e.g., direct sale, or profit-driven redistribution).
-- Each sub-project (sonder520, Nymir, xy-club, xy-intro-card, jiuxi, shinian) carries its own separate open-source license — please refer to the `LICENSE` file in each project's repository. The CC BY-NC 4.0 here covers **only this repository's own** text and layout.
+- Each sub-project (sonder520, Nymir, xy-club, xy-intro-card, jiuxi, shinian) carries its own separate license for **code and docs**, and the two are often *different* licenses (e.g., most projects' docs are under a CC license, while jiuxi's content is non-commercial). Please refer to the `LICENSE` and `LICENSE-DOCS` files in each project's repository. The CC BY-NC 4.0 here covers **only this repository's own** text and layout.
 
 The full license text is in the [`LICENSE`](./LICENSE) file at the repository root, or see <https://creativecommons.org/licenses/by-nc/4.0/>.
 
