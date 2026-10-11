@@ -7,11 +7,11 @@
 *一个非程序员出身的普通人，正在把 AI Agent 当成一种新型生产工具，通过实际项目实验它能把非程序员的生产边界推到哪里。*
 
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=flat-square&logo=github)](https://github.com/xiaoyu-hue)
-[![原创项目](https://img.shields.io/badge/原创项目-4-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
+[![原创项目](https://img.shields.io/badge/原创项目-6-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 [![最后更新](https://img.shields.io/badge/最后更新-2026--10-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
-**四个原创项目 · 全部开源 · 都尽量如实标注了各自的局限**
+**六个原创项目 · 全部开源 · 都尽量如实标注了各自的局限**
 
 [📝 我的主站 →](https://xiaoyu-hue.github.io/)
 
@@ -25,7 +25,9 @@
 - [第一个项目：sonder520](#第一个项目sonder520)
 - [第二个想法：Nymir](#第二个想法nymir)
 - [XY 系列：xy-club 与 xy-intro-card](#xy-系列xy-club-与-xy-intro-card)
-- [四个作品一览](#四个作品一览)
+- [信息策展：九溪 jiuxi](#信息策展九溪-jiuxi)
+- [活着的窗景：时念 shinian](#活着的窗景时念-shinian)
+- [六个作品一览](#六个作品一览)
 - [快速开始](#快速开始)
 - [这场实验在测什么](#这场实验在测什么)
 - [我和 AI 的协作方式](#我和-ai-的协作方式)
@@ -45,7 +47,7 @@
 
 > **当生产工具从"编程语言"换成"AI Agent"，一个非程序员到底能走多远？**
 
-下面四个项目就是这个问题的四份答卷。它们不是教程练手作品，是真实在跑、真实有人用的东西——四个都有在线站点，主要项目都带 CI 测试门禁，光 sonder520 一个就跑了 776 项测试。
+下面六个项目就是这个问题的六份答卷。它们不是教程练手作品，是真实在跑、真实有人用的东西——六个都有在线站点，主要项目都带 CI 测试门禁，光 sonder520 一个就跑了 776 项测试。
 
 ---
 
@@ -141,7 +143,39 @@
 
 ---
 
-## 四个作品一览
+## 信息策展：九溪 jiuxi
+
+做完前面几个"给自己或给别人用的工具"之后，我想做一件不一样的事：**把 AI 领域散落的信息，整理成一个普通人也能看懂的策展站。**
+
+九溪不是一个聊天机器人，而是一个**信息集合**——用时间线把 AI 发展脉络讲清楚、用工具箱把值得一试的开源项目列出来、用读书推荐把靠谱的资料指给你。重点不在"多"，而在"我亲自读过、用过、判断过"。
+
+它现在有三块核心内容：一条 **192 条的 AI 发展时间线**（国内外并重，从理论奠基到最新进展）、一个 **40 个高星 GitHub 项目的 AI 工具箱**（含完整的 AI Agent 主线）、以及一份 **37 本书的读书推荐**（每条都配客观推荐语和可在线阅读的链接）。
+
+| | |
+|---|---|
+| 🔗 在线 | [xiaoyu-hue.github.io/jiuxi](https://xiaoyu-hue.github.io/jiuxi/) |
+| 🛠 技术 | Astro 7 · Tailwind v4 · 零运行时依赖 · 双站部署（Cloudflare Pages 主 + GitHub Pages 备）· CI 安全门禁 |
+| 📄 协议 | MIT |
+
+---
+
+## 活着的窗景：时念 shinian
+
+前面几个项目都是"工具"，时念想做的是**氛围**——一个装在手机里的"活着的窗景"。
+
+它的主角是一片天空：随真实时刻、四季与天气流动，黎明到深夜七段色阶连续过渡；时钟、倒数日、许愿池、实时天气（覆盖 57 个中国主要城市，直连 Open-Meteo 免密钥）都浮在液态玻璃卡片上。打开它，看到的不是冷冰冰的时刻，而是一方正在流动的天。
+
+它面向手机优先：安卓 App（Capacitor 封装）+ 网页版，本地优先、可选加密存储。
+
+| | |
+|---|---|
+| 🔗 在线 | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
+| 🛠 技术 | TypeScript（esbuild 编译进 IIFE）· 原生 JS 零构建 · Capacitor 安卓封装 · 本地优先 + 可选加密存储 |
+| 📄 协议 | 见仓库 LICENSE |
+
+---
+
+## 六个作品一览
 
 <div align="center">∙ ∙ ∙</div>
 
@@ -186,19 +220,39 @@
 
 </td>
 </tr>
+<tr>
+<td align="center" width="50%">
+
+🗺️ &nbsp; <b><a href="https://github.com/xiaoyu-hue/jiuxi">九溪 jiuxi</a></b>
+<br><br>
+AI 信息策展站 · 时间线 / 工具箱 / 读书推荐
+<br><br>
+<code>192 时间线</code> · <code>40 工具</code> · <code>37 书</code> · MIT
+
+</td>
+<td align="center" width="50%">
+
+🌌 &nbsp; <b><a href="https://github.com/xiaoyu-hue/shinian">时念 shinian</a></b>
+<br><br>
+手机里的活窗景 · 流动天空 + 时钟倒数日
+<br><br>
+<code>安卓 App</code> · <code>网页版</code> · 本地优先
+
+</td>
+</tr>
 </table>
 
 <div align="center">∙ ∙ ∙</div>
 
 > 另外两个仓库 `cs-self-learning-XY`、`free-programming-books-XY` 是 fork 的学习资料，不是原创作品。
 
-**维护状态（2026-09 更新）**：四个项目都还在维护，但**节奏比之前慢**——主力设备坏了，现在用备用设备更新，等买了新机器会恢复。它们没有被放弃。如果你打算正式用某一个，请先读它自己的 README。
+**维护状态（2026-10 更新）**：六个项目都还在维护，但**节奏比之前慢**——主力设备坏了，现在用备用设备更新，等买了新机器会恢复。它们没有被放弃。如果你打算正式用某一个，请先读它自己的 README。
 
 ---
 
 ## 快速开始
 
-四个项目都有在线版本，**基本不用安装就能直接试**。
+六个项目都有在线版本，**基本不用安装就能直接试**。
 
 | 项目 | 在线体验 | 本地运行 |
 |---|---|---|
@@ -206,6 +260,8 @@
 | ✦ **Nymir** | [xiaoyu-hue.github.io/Nymir](https://xiaoyu-hue.github.io/Nymir/) | 克隆 → `cd Nymir` → `npm install` → `npm run dev` |
 | 💎 **xy-club** | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) | 克隆 → `pnpm install`（或 `npm install`）→ `node server.js`；官网 `localhost:3000`，后台 `localhost:3000/admin` |
 | 🪪 **xy-intro-card** | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) | 下载单个 HTML 文件，双击打开即可，断网也能用 |
+| 🗺️ **九溪 jiuxi** | [xiaoyu-hue.github.io/jiuxi](https://xiaoyu-hue.github.io/jiuxi/) | 克隆仓库后，参考其 README 的本地构建说明（Astro 项目，需 Node 环境） |
+| 🌌 **时念 shinian** | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) | 安卓 App 需 Capacitor 构建；网页版可直接打开，详见仓库说明 |
 
 完整的环境要求与开发命令，见各项目自己的 README。欢迎提 issue 和 PR；**Nymir** 请先读完它的安全局限再决定使用或反馈。
 > 提醒：xy-club 后台默认管理密码写在它自己的 README 里，**部署上线前务必先改掉**。
@@ -214,7 +270,7 @@
 
 ## 这场实验在测什么
 
-四个项目不是随便做的，每一个都在回答一个具体问题：
+六个项目不是随便做的，每一个都在回答一个具体问题：
 
 | 项目 | 它在测的边界 |
 |---|---|
@@ -222,6 +278,8 @@
 | **Nymir** | 零基础的人能不能碰密码学？——端到端加密跑通了，但它也是最需要你保持警惕的一个 |
 | **xy-club** | 做一个好看、好改、好部署的官网，门槛能压到多低？——零构建、零数据库、单个 JSON 驱动整站 |
 | **xy-intro-card** | 工具能简单到什么程度？——一个 HTML 文件，双击打开就能用 |
+| **九溪 jiuxi** | 非程序员能不能把"信息策展"做扎实？——192 条时间线、40 个工具、37 本书，靠的是亲手读与判，不是自动抓取 |
+| **时念 shinian** | 纯前端能不能做出"有生命感"的界面？——天空随真实时刻与天气流动，零动画库原生实现 |
 
 ---
 
@@ -241,7 +299,7 @@
 
 ### 三次判断是我做的
 
-规则好写，真正说明问题的是实际发生过什么。这三个例子都来自上面四个项目的真实过程：
+规则好写，真正说明问题的是实际发生过什么。这三个例子都来自上面六个项目的真实过程：
 
 | 发生了什么 | AI 做了什么 | 我的判断 |
 |---|---|---|
@@ -269,6 +327,8 @@
 | Nymir | **未经专业安全审计**、TOFU 首次见面信任有弱点、公共信令可观察元数据、流量混淆强度有限、无离线收件箱 |
 | xy-club | 单密码鉴权无多管理员、无 CSRF 防护、单进程文件读写、无 SSR/SEO、不适合支付类站点 |
 | xy-intro-card | 纯前端单文件，无后端存储、无多人协作、无复杂动画 |
+| 九溪 jiuxi | 内容由作者手工策展维护（非全量自动抓取）、部分外链依赖第三方可用性、更新频率取决于作者时间 |
+| 时念 shinian | 纯前端数据存本地、网页版功能少于安卓 App（如系统通知仅 App 支持）、天气依赖 Open-Meteo 接口 |
 
 **Nymir 尤其要提醒**：作者非程序员出身、代码未经过专业安全审计，**不建议用于真实敏感场景**。
 
@@ -292,7 +352,7 @@
 
 ## 我的局限与选择
 
-我很清楚自己最大的局限：**缺少编程的硬性技术，很多事情都依赖 AI**。AI 给我建议，我觉得好就采纳，觉得不好就问它还有没有别的方案——就这样一步步做了四个项目。
+我很清楚自己最大的局限：**缺少编程的硬性技术，很多事情都依赖 AI**。AI 给我建议，我觉得好就采纳，觉得不好就问它还有没有别的方案——就这样一步步做了六个项目。
 
 我也纠结过：是不是占用了 GitHub 的公共空间？要不要设成私有，或者干脆删掉？但我非常敬佩开源精神，所以我的项目都会开源，虽然代码还在持续优化中。
 

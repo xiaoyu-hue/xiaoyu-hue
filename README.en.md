@@ -7,11 +7,11 @@
 *An ordinary person with no programming background, treating AI Agents as a new kind of production tool — and using real projects to test how far they can push the boundaries of what a non-programmer can build.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=flat-square&logo=github)](https://github.com/xiaoyu-hue)
-[![Original Projects](https://img.shields.io/badge/Original%20Projects-4-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
+[![Original Projects](https://img.shields.io/badge/Original%20Projects-6-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
-[![Last update](https://img.shields.io/badge/Last%20update-Sep%202026-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
+[![Last update](https://img.shields.io/badge/Last%20update-Oct%202026-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
-**Four original projects · All open source · Each tries to honestly document its own limits**
+**Six original projects · All open source · Each tries to honestly document its own limits**
 
 [📝 My site →](https://xiaoyu-hue.github.io/)
 
@@ -21,12 +21,14 @@
 
 ## Table of Contents
 
-- [All Four Projects at a Glance](#all-four-projects-at-a-glance)
+- [All Six Projects at a Glance](#all-six-projects-at-a-glance)
 - [Quick Start](#quick-start)
 - [Who I Am](#who-i-am)
 - [Project 1: sonder520](#project-1-sonder520)
 - [The Second Idea: Nymir](#the-second-idea-nymir)
 - [The XY Series: xy-club and xy-intro-card](#the-xy-series-xy-club-and-xy-intro-card)
+- [Information Curation: jiuxi (九溪)](#information-curation-jiuxi-九溪)
+- [The Living Window: shinian (时念)](#the-living-window-shinian-时念)
 - [What This Experiment Is Testing](#what-this-experiment-is-testing)
 - [How I Work with AI](#how-i-work-with-ai)
 - [What These Projects Can't Do](#what-these-projects-cant-do)
@@ -35,7 +37,7 @@
 
 ---
 
-## All Four Projects at a Glance
+## All Six Projects at a Glance
 
 <div align="center">∙ ∙ ∙</div>
 
@@ -80,11 +82,31 @@ Personal intro card generator — one HTML file, double-click to use
 
 </td>
 </tr>
+<tr>
+<td align="center" width="50%">
+
+🗺️ &nbsp; <b><a href="https://github.com/xiaoyu-hue/jiuxi">jiuxi (九溪)</a></b>
+<br><br>
+AI curation site · timeline / toolbox / reading
+<br><br>
+<code>192 timeline</code> · <code>40 tools</code> · <code>37 books</code> · MIT
+
+</td>
+<td align="center" width="50%">
+
+🌌 &nbsp; <b><a href="https://github.com/xiaoyu-hue/shinian">shinian (时念)</a></b>
+<br><br>
+Live sky on your phone · flowing sky + clock &amp; countdown
+<br><br>
+<code>Android App</code> · <code>Web</code> · local-first
+
+</td>
+</tr>
 </table>
 
 <div align="center">∙ ∙ ∙</div>
 
-**Maintenance status (updated Sep 2026):** all four projects are still maintained, but at a **slower pace than before** — my main device broke, and I'm updating from a backup one until I can get a new machine. They are not abandoned. If you're deciding whether to depend on one of them, please read its own README first.
+**Maintenance status (updated Oct 2026):** all six projects are still maintained, but at a **slower pace than before** — my main device broke, and I'm updating from a backup one until I can get a new machine. They are not abandoned. If you're deciding whether to depend on one of them, please read its own README first.
 
 > The other two repositories, `cs-self-learning-XY` and `free-programming-books-XY`, are forks of learning resources, not original work.
 
@@ -100,6 +122,8 @@ Every project has a live version — you can usually try them without installing
 | ✦ **Nymir** | [xiaoyu-hue.github.io/Nymir](https://xiaoyu-hue.github.io/Nymir/) | `git clone` → `cd Nymir` → `npm install` → `npm run dev` |
 | 💎 **xy-club** | [xiaoyu-hue.github.io/xy-club](https://xiaoyu-hue.github.io/xy-club/) | `git clone` → `pnpm install` (or `npm install`) → `node server.js`; site at `localhost:3000`, admin at `localhost:3000/admin` |
 | 🪪 **xy-intro-card** | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) | Download the single HTML file and double-click it — works offline |
+| 🗺️ **jiuxi (九溪)** | [xiaoyu-hue.github.io/jiuxi](https://xiaoyu-hue.github.io/jiuxi/) | `git clone` the repo, then follow its README build steps (Astro project, needs Node) |
+| 🌌 **shinian (时念)** | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) | Android app needs Capacitor build; web version opens directly — see the repo |
 
 Full setup details, environment requirements and dev commands live in each project's own README. Issues and pull requests are welcome; for **Nymir**, please read its security limitations before reporting or depending on it.
 
@@ -115,7 +139,7 @@ I have no plans to become a programmer. I build these projects to answer one con
 
 > **When the production tool changes from "programming languages" to "AI Agents," how far can a non-programmer actually go?**
 
-The four projects below are four answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all four have live sites, the main projects pass CI test gates, and sonder520 alone runs 776 tests.
+The six projects below are six answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all six have live sites, the main projects pass CI test gates, and sonder520 alone runs 776 tests.
 
 ---
 
@@ -211,9 +235,41 @@ Another tool from the same family: personal intro cards for members. A zero-depe
 
 ---
 
+## Information Curation: jiuxi (九溪)
+
+After building the "tools for myself or for others" above, I wanted to do something different: **organize the scattered information about AI into a curation site that an ordinary person can actually understand.**
+
+jiuxi is not a chatbot — it's a **collection of information**. A timeline that lays out how AI developed, a toolbox that lists open-source projects worth trying, and a reading list that points you to trustworthy material. The point isn't "how much," but "I've read it, used it, and judged it myself."
+
+Its three core pieces: a **192-entry AI timeline** (China and the world, side by side, from theoretical foundations to the latest), a **toolbox of 40 high-star GitHub projects** (with a full AI Agent thread), and a **reading list of 37 books** (each with an objective note and a link you can read online).
+
+| | |
+|---|---|
+| 🔗 Live | [xiaoyu-hue.github.io/jiuxi](https://xiaoyu-hue.github.io/jiuxi/) |
+| 🛠 Tech | Astro 7 · Tailwind v4 · zero runtime deps · dual deployment (Cloudflare Pages primary + GitHub Pages backup) · CI security gates |
+| 📄 License | MIT |
+
+---
+
+## The Living Window: shinian (时念)
+
+The projects above are all "tools." shinian wants to make **atmosphere** — a "living window" that lives in your phone.
+
+Its protagonist is a sky: it flows with the real time of day, the seasons, and the weather, with seven color stages blending continuously from dawn to deep night. The clock, countdown days, wish pool, and live weather (57 major Chinese cities, direct via Open-Meteo, no API key) all float on liquid-glass cards. Open it, and what you see is not a cold timestamp, but a sky that is actually moving.
+
+It's mobile-first: an Android app (Capacitor-wrapped) plus a web version, local-first, with optional encrypted storage.
+
+| | |
+|---|---|
+| 🔗 Live | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
+| 🛠 Tech | TypeScript (esbuild into IIFE) · vanilla JS, zero build · Capacitor Android wrapper · local-first + optional encrypted storage |
+| 📄 License | see repository LICENSE |
+
+---
+
 ## What This Experiment Is Testing
 
-The four projects were not built at random. Each one answers a specific question:
+The six projects were not built at random. Each one answers a specific question:
 
 | Project | The boundary it probes |
 |---|---|
@@ -221,6 +277,8 @@ The four projects were not built at random. Each one answers a specific question
 | **Nymir** | Can someone with zero background work with cryptography? — End-to-end encryption runs fine, but it's also the project that demands the most of your caution |
 | **xy-club** | How low can the bar go for a good-looking, easy-to-edit, easy-to-deploy website? — Zero build, zero database, one JSON file drives the whole site |
 | **xy-intro-card** | How simple can a tool be? — One HTML file; double-click to open, ready to use |
+| **jiuxi (九溪)** | Can a non-programmer make "curation" solid? — 192 timeline entries, 40 tools, 37 books, built on reading and judging by hand, not auto-scraping |
+| **shinian (时念)** | Can a pure front-end make an interface that feels "alive"? — sky flows with real time and weather, no animation library |
 
 ---
 
@@ -268,6 +326,8 @@ If this is an "experiment," the failures belong on the record too. All of the fo
 | Nymir | **No professional security audit**, TOFU (trust-on-first-use) has weaknesses, public signaling servers can observe metadata, limited traffic-obfuscation strength, no offline inbox |
 | xy-club | Single-password auth with no multi-admin support, no CSRF protection, single-process file reads/writes, no SSR/SEO, not suitable for payment sites |
 | xy-intro-card | Pure front-end single file, no backend storage, no multi-user collaboration, no complex animations |
+| jiuxi (九溪) | Content is hand-curated (not full auto-scraping), some external links depend on third-party availability, update frequency depends on the author's time |
+| shinian (时念) | Pure front-end data is local-only, web version has fewer features than the Android app (e.g. system notifications are app-only), weather depends on the Open-Meteo API |
 
 **A special warning for Nymir**: the author is not a programmer by training and the code has not been professionally security-audited. **It is not recommended for real, sensitive use cases.**
 
@@ -291,7 +351,7 @@ Replies may be slow: I'm maintaining these projects from a backup device, and ev
 
 ## My Limitations and Choices
 
-I know my biggest limitation all too well: **I lack hard programming skills, so much of what I do depends on AI.** AI suggests; if I think a suggestion is good, I take it — if not, I ask whether there's another way. That's how, step by step, these four projects came to be.
+I know my biggest limitation all too well: **I lack hard programming skills, so much of what I do depends on AI.** AI suggests; if I think a suggestion is good, I take it — if not, I ask whether there's another way. That's how, step by step, these six projects came to be.
 
 I've also wrestled with doubt: am I taking up public space on GitHub? Should I set these repos to private, or just delete them? But I deeply admire the spirit of open source, so all of my projects will stay open — even though the code is still being polished.
 
@@ -315,6 +375,6 @@ That's why you'll find some uncommon things in these repositories: READMEs that 
 
 [简体中文](./README.md) | **English**
 
-*Last updated: Sep 2026*
+*Last updated: Oct 2026*
 
 </div>
