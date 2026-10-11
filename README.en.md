@@ -27,8 +27,8 @@
 - [Project 1: sonder520](#project-1-sonder520)
 - [The Second Idea: Nymir](#the-second-idea-nymir)
 - [The XY Series: xy-club and xy-intro-card](#the-xy-series-xy-club-and-xy-intro-card)
-- [Information Curation: jiuxi (九溪)](#information-curation-jiuxi-九溪)
-- [The Living Window: shinian (时念)](#the-living-window-shinian-时念)
+- [Personal Info Hub: jiuxi (九溪)](#personal-info-hub-jiuxi-九溪)
+- [A Time-Shifting Background Theme: shinian (时念)](#a-time-shifting-background-theme-shinian-时念)
 - [What This Experiment Is Testing](#what-this-experiment-is-testing)
 - [How I Work with AI](#how-i-work-with-ai)
 - [What These Projects Can't Do](#what-these-projects-cant-do)
@@ -87,9 +87,9 @@ Personal intro card generator — one HTML file, double-click to use
 
 🗺️ &nbsp; <b><a href="https://github.com/xiaoyu-hue/jiuxi">jiuxi (九溪)</a></b>
 <br><br>
-AI curation site · timeline / toolbox / reading
+AI info hub · timeline / toolbox / reading
 <br><br>
-<code>192 timeline</code> · <code>40 tools</code> · <code>37 books</code> · MIT
+<code>192 timeline</code> · <code>40 tools</code> · <code>37 books</code> · Apache-2.0
 
 </td>
 <td align="center" width="50%">
@@ -98,7 +98,7 @@ AI curation site · timeline / toolbox / reading
 <br><br>
 Live sky on your phone · flowing sky + clock &amp; countdown
 <br><br>
-<code>Android App</code> · <code>Web</code> · local-first
+<code>Android App</code> · <code>Web</code> · local-first · MIT
 
 </td>
 </tr>
@@ -235,27 +235,29 @@ Another tool from the same family: personal intro cards for members. A zero-depe
 
 ---
 
-## Information Curation: jiuxi (九溪)
+## Personal Info Hub: jiuxi (九溪)
 
-After building the "tools for myself or for others" above, I wanted to do something different: **organize the scattered information about AI into a curation site that an ordinary person can actually understand.**
+After building the "tools for myself or for others" above, I wanted to do something different: **gather information into a personal hub I can use conveniently — AI-first, with hot news as a secondary stream.**
 
-jiuxi is not a chatbot — it's a **collection of information**. A timeline that lays out how AI developed, a toolbox that lists open-source projects worth trying, and a reading list that points you to trustworthy material. The point isn't "how much," but "I've read it, used it, and judged it myself."
+jiuxi is not a chatbot — it's a **collection of information**. A timeline that lays out how AI developed, a toolbox that lists open-source projects worth trying, and a reading list that points you to material.
 
-Its three core pieces: a **192-entry AI timeline** (China and the world, side by side, from theoretical foundations to the latest), a **toolbox of 40 high-star GitHub projects** (with a full AI Agent thread), and a **reading list of 37 books** (each with an objective note and a link you can read online).
+To be honest, so it isn't mistaken for an authoritative recommendation: the timeline was added **mainly to make the page look nicer**; the toolbox and reading lists are **mostly things I asked AI to recommend, and I haven't read them all myself**. So the intent is personal use, not an "I've read, used, and judged every item" expert list.
+
+Its three pieces: an AI development timeline (China and the world, side by side), an AI toolbox (with a full AI Agent thread), and a reading list (each with an objective note and a link you can read online); the counts are 192 / 40 / 37.
 
 | | |
 |---|---|
 | 🔗 Live | [xiaoyu-hue.github.io/jiuxi](https://xiaoyu-hue.github.io/jiuxi/) |
 | 🛠 Tech | Astro 7 · Tailwind v4 · zero runtime deps · dual deployment (Cloudflare Pages primary + GitHub Pages backup) · CI security gates |
-| 📄 License | MIT |
+| 📄 License | Apache-2.0 (code) / CC BY-NC 4.0 (content) |
 
 ---
 
-## The Living Window: shinian (时念)
+## A Time-Shifting Background Theme: shinian (时念)
 
-The projects above are all "tools." shinian wants to make **atmosphere** — a "living window" that lives in your phone.
+The projects above are all "tools." shinian's original intent was a **background theme that shifts with real time, the seasons, and the weather** — a "living window" that lives in your phone.
 
-Its protagonist is a sky: it flows with the real time of day, the seasons, and the weather, with seven color stages blending continuously from dawn to deep night. The clock, countdown days, wish pool, and live weather (57 major Chinese cities, direct via Open-Meteo, no API key) all float on liquid-glass cards. Open it, and what you see is not a cold timestamp, but a sky that is actually moving.
+Its protagonist is a sky: it flows with the real time of day, the seasons, and the weather, with seven color stages blending continuously from dawn to deep night. The clock, countdown days, wish pool, and live weather (57 major Chinese cities, direct via Open-Meteo, no API key) all float on liquid-glass cards. Open it, and what you see is not a cold timestamp, but a sky that is actually moving — essentially a dynamic wallpaper that changes color with the time of day.
 
 It's mobile-first: an Android app (Capacitor-wrapped) plus a web version, local-first, with optional encrypted storage.
 
@@ -263,7 +265,7 @@ It's mobile-first: an Android app (Capacitor-wrapped) plus a web version, local-
 |---|---|
 | 🔗 Live | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
 | 🛠 Tech | TypeScript (esbuild into IIFE) · vanilla JS, zero build · Capacitor Android wrapper · local-first + optional encrypted storage |
-| 📄 License | see repository LICENSE |
+| 📄 License | MIT |
 
 ---
 
@@ -277,7 +279,7 @@ The six projects were not built at random. Each one answers a specific question:
 | **Nymir** | Can someone with zero background work with cryptography? — End-to-end encryption runs fine, but it's also the project that demands the most of your caution |
 | **xy-club** | How low can the bar go for a good-looking, easy-to-edit, easy-to-deploy website? — Zero build, zero database, one JSON file drives the whole site |
 | **xy-intro-card** | How simple can a tool be? — One HTML file; double-click to open, ready to use |
-| **jiuxi (九溪)** | Can a non-programmer make "curation" solid? — 192 timeline entries, 40 tools, 37 books, built on reading and judging by hand, not auto-scraping |
+| **jiuxi (九溪)** | Can a non-programmer pull together a convenient personal info hub? — 192 timeline entries (mostly for looks), 40 tools, 37 books, hand-assembled; tools and books mostly AI-recommended, not individually tested |
 | **shinian (时念)** | Can a pure front-end make an interface that feels "alive"? — sky flows with real time and weather, no animation library |
 
 ---
@@ -326,7 +328,7 @@ If this is an "experiment," the failures belong on the record too. All of the fo
 | Nymir | **No professional security audit**, TOFU (trust-on-first-use) has weaknesses, public signaling servers can observe metadata, limited traffic-obfuscation strength, no offline inbox |
 | xy-club | Single-password auth with no multi-admin support, no CSRF protection, single-process file reads/writes, no SSR/SEO, not suitable for payment sites |
 | xy-intro-card | Pure front-end single file, no backend storage, no multi-user collaboration, no complex animations |
-| jiuxi (九溪) | Content is hand-curated (not full auto-scraping), some external links depend on third-party availability, update frequency depends on the author's time |
+| jiuxi (九溪) | Content is hand-assembled (not full auto-scraping); timeline is mostly decorative, toolbox and reading lists are mostly AI-recommended and not individually vetted; some external links depend on third-party availability; update frequency depends on the author's time |
 | shinian (时念) | Pure front-end data is local-only, web version has fewer features than the Android app (e.g. system notifications are app-only), weather depends on the Open-Meteo API |
 
 **A special warning for Nymir**: the author is not a programmer by training and the code has not been professionally security-audited. **It is not recommended for real, sensitive use cases.**
