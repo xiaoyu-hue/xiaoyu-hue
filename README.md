@@ -247,7 +247,7 @@ AI 信息聚集地 · 时间线 / 工具箱 / 读书推荐
 
 <div align="center">∙ ∙ ∙</div>
 
-> 另外两个仓库 `cs-self-learning-XY`、`free-programming-books-XY` 是 fork 的学习资料，不是原创作品。
+> 另外两个仓库 `cs-self-learning`、`free-programming-books` 是 fork 的学习资料，不是原创作品。
 
 **维护状态（2026-10 更新）**：六个项目都还在维护，但**节奏比之前慢**——主力设备坏了，现在用备用设备更新，等买了新机器会恢复。它们没有被放弃。如果你打算正式用某一个，请先读它自己的 README。
 
