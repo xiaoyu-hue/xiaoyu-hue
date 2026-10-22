@@ -7,11 +7,11 @@
 *An ordinary person with no programming background, treating AI Agents as a new kind of production tool — and using real projects to test how far they can push the boundaries of what a non-programmer can build.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoyu--hue-181717?style=flat-square&logo=github)](https://github.com/xiaoyu-hue)
-[![Original Projects](https://img.shields.io/badge/Original%20Projects-6-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
+[![Original Projects](https://img.shields.io/badge/Original%20Projects-7-5B6CD8?style=flat-square)](https://github.com/xiaoyu-hue?tab=repositories)
 [![Built with](https://img.shields.io/badge/Built%20with-AI%20Agent-646CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 [![Last update](https://img.shields.io/badge/Last%20update-Oct%202026-9A8CFF?style=flat-square)](https://github.com/xiaoyu-hue)
 
-**Six original projects · All open source · Each tries to honestly document its own limits**
+**Seven original projects · All open source · Each tries to honestly document its own limits**
 
 [📝 My site →](https://xiaoyu-hue.github.io/)
 
@@ -21,7 +21,7 @@
 
 ## Table of Contents
 
-- [All Six Projects at a Glance](#all-six-projects-at-a-glance)
+- [All Seven Projects at a Glance](#all-seven-projects-at-a-glance)
 - [Quick Start](#quick-start)
 - [Who I Am](#who-i-am)
 - [Project 1: sonder520](#project-1-sonder520)
@@ -29,6 +29,7 @@
 - [The XY Series: xy-club and xy-intro-card](#the-xy-series-xy-club-and-xy-intro-card)
 - [Personal Info Hub: jiuxi (九溪)](#personal-info-hub-jiuxi-九溪)
 - [A Time-Shifting Background Theme: shinian (时念)](#a-time-shifting-background-theme-shinian-时念)
+- [Time Spent with Books: TailTale (书时)](#time-spent-with-books-tailtale-书时)
 - [What This Experiment Is Testing](#what-this-experiment-is-testing)
 - [How I Work with AI](#how-i-work-with-ai)
 - [What These Projects Can't Do](#what-these-projects-cant-do)
@@ -38,7 +39,7 @@
 
 ---
 
-## All Six Projects at a Glance
+## All Seven Projects at a Glance
 
 <div align="center">∙ ∙ ∙</div>
 
@@ -103,11 +104,22 @@ Live sky on your phone · flowing sky + clock &amp; countdown
 
 </td>
 </tr>
+<tr>
+<td align="center" colspan="2">
+
+📚 &nbsp; <b><a href="https://github.com/xiaoyu-hue/tailtale">TailTale (书时)</a></b>
+<br><br>
+Gamified reader · read to earn coins, raise a pet with coins
+<br><br>
+<code>73 tests</code> · <code>v1.7.0</code> · Apache-2.0 (code) / CC BY-NC 4.0 (docs)
+
+</td>
+</tr>
 </table>
 
 <div align="center">∙ ∙ ∙</div>
 
-**Maintenance status (updated Oct 2026):** all six projects are still maintained, but at a **slower pace than before** — my main device broke, and I'm updating from a backup one until I can get a new machine. They are not abandoned. If you're deciding whether to depend on one of them, please read its own README first.
+**Maintenance status (updated Oct 2026):** all seven projects are still maintained, but at a **slower pace than before** — my main device broke, and I'm updating from a backup one until I can get a new machine. They are not abandoned. If you're deciding whether to depend on one of them, please read its own README first.
 
 > The other two repositories, `cs-self-learning-XY` and `free-programming-books-XY`, are forks of learning resources, not original work.
 
@@ -125,6 +137,7 @@ Every project has a live version — you can usually try them without installing
 | 🪪 **xy-intro-card** | [xiaoyu-hue.github.io/xy-intro-card](https://xiaoyu-hue.github.io/xy-intro-card/) | Download the single HTML file and double-click it — works offline |
 | 🗺️ **jiuxi (九溪)** | [xiaoyu-hue.github.io/jiuxi](https://xiaoyu-hue.github.io/jiuxi/) | `git clone` the repo, then follow its README build steps (Astro project, needs Node) |
 | 🌌 **shinian (时念)** | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) | Android app needs Capacitor build; web version opens directly — see the repo |
+| 📚 **TailTale (书时)** | [tailtale-520.pages.dev](https://tailtale-520.pages.dev/) | `git clone` → `cd tailtale` → `npm install` → `npm run dev` (Node.js 20+) |
 
 Full setup details, environment requirements and dev commands live in each project's own README. Issues and pull requests are welcome; for **Nymir**, please read its security limitations before reporting or depending on it.
 
@@ -140,7 +153,7 @@ I have no plans to become a programmer. I build these projects to answer one con
 
 > **When the production tool changes from "programming languages" to "AI Agents," how far can a non-programmer actually go?**
 
-The six projects below are six answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all six have live sites, the main projects pass CI test gates, and sonder520 alone runs 776 tests.
+The seven projects below are seven answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all seven have live sites, the main projects pass CI test gates, and sonder520 alone runs 776 tests.
 
 ---
 
@@ -270,9 +283,27 @@ It's mobile-first: an Android app (Capacitor-wrapped) plus a web version, local-
 
 ---
 
+## Time Spent with Books: TailTale (书时)
+
+The projects above are all "tools." TailTale tests something else: **can reading itself become something you feel attached to?**
+
+The whole game loop in one sentence: **read to earn time-based coins, spend coins to raise a pet.** Import ebooks into your browser, and opening a book starts the clock — every 30 minutes of reading earns 10 coins, with daily check-in and finish-a-book bonuses; the coins feed a pixel cat with three stats, affection, and growth stages, and it nuzzles the screen after 30 straight minutes of reading. Coins can only be earned through reading, **never purchased** — no payments, no accounts, no servers.
+
+The bookshelf handles TXT / EPUB / PDF, remembers progress by file content fingerprint so the same file resumes on another device, and unifies swipe-to-page gestures across all three readers, verified on real iOS and Android devices. It also offers AI book analysis (bring your own key, direct browser connection) for full-book outlines or questions about the book.
+
+The name: **书时** means "time spent with books"; **TailTale** is a double meaning of a cat's tail and a tale — both about companionship.
+
+| | |
+|---|---|
+| 🔗 Live | [tailtale-520.pages.dev](https://tailtale-520.pages.dev/) |
+| 🛠 Tech | React 18 · TypeScript · Vite · PWA · epubjs / pdfjs-dist loaded on demand · IndexedDB · 73 tests |
+| 📄 License | Apache-2.0 (code) / CC BY-NC 4.0 (docs) |
+
+---
+
 ## What This Experiment Is Testing
 
-The six projects were not built at random. Each one answers a specific question:
+The seven projects were not built at random. Each one answers a specific question:
 
 | Project | The boundary it probes |
 |---|---|
@@ -282,6 +313,7 @@ The six projects were not built at random. Each one answers a specific question:
 | **xy-intro-card** | How simple can a tool be? — One HTML file; double-click to open, ready to use |
 | **jiuxi (九溪)** | Can a non-programmer pull together a convenient personal info hub? — 192 timeline entries (mostly for looks), 40 tools, 37 books, hand-assembled; tools and books mostly AI-recommended, not individually tested |
 | **shinian (时念)** | Can a pure front-end make an interface that feels "alive"? — sky flows with real time and weather, no animation library |
+| **TailTale (书时)** | Can gamification make reading something you miss? — reading time earns coins, coins raise a cat; coins can't be bought, no payment loop |
 
 ---
 
@@ -331,6 +363,7 @@ If this is an "experiment," the failures belong on the record too. All of the fo
 | xy-intro-card | Pure front-end single file, no backend storage, no multi-user collaboration, no complex animations |
 | jiuxi (九溪) | Content is hand-assembled (not full auto-scraping); timeline is mostly decorative, toolbox and reading lists are mostly AI-recommended and not individually vetted; some external links depend on third-party availability; update frequency depends on the author's time |
 | shinian (时念) | Pure front-end data is local-only, web version has fewer features than the Android app (e.g. system notifications are app-only), weather depends on the Open-Meteo API |
+| TailTale (书时) | Pure front-end data lives in the browser (export a backup before clearing browser data); AI analysis initially supports TXT/EPUB only and needs your own DeepSeek key; the toolbox (M4) isn't out yet; needs a recent Chrome/Edge/Safari |
 
 **A special warning for Nymir**: the author is not a programmer by training and the code has not been professionally security-audited. **It is not recommended for real, sensitive use cases.**
 
@@ -354,7 +387,7 @@ Replies may be slow: I'm maintaining these projects from a backup device, and ev
 
 ## My Limitations and Choices
 
-I know my biggest limitation all too well: **I lack hard programming skills, so much of what I do depends on AI.** AI suggests; if I think a suggestion is good, I take it — if not, I ask whether there's another way. That's how, step by step, these six projects came to be.
+I know my biggest limitation all too well: **I lack hard programming skills, so much of what I do depends on AI.** AI suggests; if I think a suggestion is good, I take it — if not, I ask whether there's another way. That's how, step by step, these seven projects came to be.
 
 I've also wrestled with doubt: am I taking up public space on GitHub? Should I set these repos to private, or just delete them? But I deeply admire the spirit of open source, so all of my projects will stay open — even though the code is still being polished.
 
@@ -376,7 +409,7 @@ This repository (xiaoyu-hue/xiaoyu-hue, the source repo for the personal homepag
 
 - You may: **share**, **repost**, and create **non-commercial** adaptations of this repository's content, provided you give **attribution**.
 - You may not: use this repository's content for **commercial purposes** (e.g., direct sale, or profit-driven redistribution).
-- Each sub-project (sonder520, Nymir, xy-club, xy-intro-card, jiuxi, shinian) carries its own separate license for **code and docs**, and the two are often *different* licenses (e.g., most projects' docs are under a CC license, while jiuxi's content is non-commercial). Please refer to the `LICENSE` and `LICENSE-DOCS` files in each project's repository. The CC BY-NC 4.0 here covers **only this repository's own** text and layout.
+- Each sub-project (sonder520, Nymir, xy-club, xy-intro-card, jiuxi, shinian, TailTale) carries its own separate license for **code and docs**, and the two are often *different* licenses (e.g., most projects' docs are under a CC license, while jiuxi's content is non-commercial and TailTale's code is Apache-2.0). Please refer to the `LICENSE` and `LICENSE-DOCS` files in each project's repository. The CC BY-NC 4.0 here covers **only this repository's own** text and layout.
 
 The full license text is in the [`LICENSE`](./LICENSE) file at the repository root, or see <https://creativecommons.org/licenses/by-nc/4.0/>.
 
