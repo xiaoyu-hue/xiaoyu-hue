@@ -121,7 +121,7 @@ Gamified reader · read to earn coins, raise a pet with coins
 
 **Maintenance status (updated Oct 2026):** all seven projects are still maintained, but at a **slower pace than before** — my main device broke, and I'm updating from a backup one until I can get a new machine. They are not abandoned. If you're deciding whether to depend on one of them, please read its own README first.
 
-> The other two repositories, `cs-self-learning-XY` and `free-programming-books-XY`, are forks of learning resources, not original work.
+> The other two repositories, `cs-self-learning` and `free-programming-books`, are forks of learning resources, not original work.
 
 ---
 
