@@ -51,7 +51,7 @@
 <br><br>
 Local personal work &amp; life OS — your data never leaves your browser
 <br><br>
-<code>12 modules</code> · <code>776 tests</code> · <code>v6.x</code> · MIT (code) / CC BY 4.0 (docs)
+<code>11 modules</code> · <code>568 tests</code> · <code>v6.4.0</code> · MIT (code) / CC BY 4.0 (docs)
 
 </td>
 <td align="center" width="50%">
@@ -153,7 +153,7 @@ I have no plans to become a programmer. I build these projects to answer one con
 
 > **When the production tool changes from "programming languages" to "AI Agents," how far can a non-programmer actually go?**
 
-The seven projects below are seven answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all seven have live sites, the main projects pass CI test gates, and sonder520 alone runs 776 tests.
+The seven projects below are seven answers to that question. They are not tutorial exercises — they are real things, actually running and actually used: all seven have live sites, the main projects pass CI test gates, and sonder520 alone runs 568 tests.
 
 ---
 
@@ -181,7 +181,7 @@ The tutorial version could only run on my own machine, and I wanted other people
 
 ### From Workspace to Personal OS
 
-From v1.0, step by step, to v6.x: 12 modules, 776 tests, PWA offline support, optional encrypted storage. The modules are nearly enough — but cross-module collaboration still has plenty of room to grow.
+From v1.0, step by step, to v6.4.0: 11 modules, 568 tests, PWA offline support, optional encrypted storage. The modules are nearly enough — but cross-module collaboration still has plenty of room to grow.
 
 I don't think it can be called a "personal workspace" anymore. It's closer to a **personal OS**.
 
@@ -307,7 +307,7 @@ The seven projects were not built at random. Each one answers a specific questio
 
 | Project | The boundary it probes |
 |---|---|
-| **sonder520** | How much engineering discipline can a non-programmer's project have? — 776 tests, 15 ADRs, layered architecture, CI gates |
+| **sonder520** | How much engineering discipline can a non-programmer's project have? — 568 tests, 13 ADRs, layered architecture, CI gates |
 | **Nymir** | Can someone with zero background work with cryptography? — End-to-end encryption runs fine, but it's also the project that demands the most of your caution |
 | **xy-club** | How low can the bar go for a good-looking, easy-to-edit, easy-to-deploy website? — Zero build, zero database, one JSON file drives the whole site |
 | **xy-intro-card** | How simple can a tool be? — One HTML file; double-click to open, ready to use |
