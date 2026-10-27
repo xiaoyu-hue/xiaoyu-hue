@@ -1,15 +1,65 @@
-xiaoyu-hue 个人主页仓库 · 文字与编排内容
+# xiaoyu-hue 个人主页 · 文档与内容许可
+
 Copyright (c) 2026 xiaoyu-hue
 SPDX-License-Identifier: CC-BY-NC-4.0
 
-本仓库的全部文字与编排内容（README.md、README.en.md 及本 LICENSE 文件）依据
-Creative Commons Attribution-NonCommercial 4.0 International（CC BY-NC 4.0）
-许可协议授权：可自由分享、转载与非商业性再创作，须署名，不得用于商业目的。
+## 一、覆盖范围
 
------------------------------------------------------------
+本许可适用于下列文件（以下合称「本作品」）：
 
-以下为该许可协议的完整法律文本（Creative Commons 官方发布，未作修改）
-=======================================================================
+- `README.md`、`README.en.md`
+- 本文件（`LICENSE`）本身
+
+以下内容**不适用**本许可：
+
+- **第三方组件与素材** —— 本仓库不含第三方素材或代码；
+- **本作品中引用的第三方内容** —— 见第四节。
+
+## 二、授权
+
+本作品依据 **Creative Commons 署名-非商业性使用 4.0 国际许可协议**（CC BY-NC 4.0）授权。
+
+您可自由地：
+- **共享** —— 以任何媒介或格式复制、发行本作品
+- **演绎** —— 修改、转换或以本作品为基础进行创作
+
+惟须遵守下列条件：
+- **署名（BY）** —— 必须给出适当署名、提供本许可的链接，并标明是否作过修改
+- **非商业性使用（NC）** —— 不得将本作品用于商业目的
+
+许可协议全文（权威英文文本）：
+<https://creativecommons.org/licenses/by-nc/4.0/legalcode>
+
+中文参考译本：
+<https://creativecommons.org/licenses/by-nc/4.0/legalcode.zh-Hans>
+
+## 三、署名方式
+
+再分发时，请**保留本文件中的版权声明、许可声明与免责声明**，并以合理方式注明：
+
+    xiaoyu-hue 个人主页 · xiaoyu-hue · CC BY-NC 4.0
+    https://github.com/xiaoyu-hue/xiaoyu-hue
+
+若对本作品作了修改，请一并注明「已修改」及修改日期。
+
+## 四、第三方内容
+
+本作品中可能包含不属于授权人的第三方内容，例如引用文字、新闻标题与摘要、公有领域作品的
+点校与排版、第三方图片、字体与商标。此类内容**不适用本许可**，其权利归各自权利人；
+使用前请核对原始许可与来源。
+
+本仓库只包含文字内容，不含源代码，因此不设代码许可。
+
+## 五、免责
+
+本作品按「现状」提供，不附带任何明示或默示的担保。许可协议中的免责条款同样适用。
+
+---
+
+## 附录：许可协议完整法律文本
+
+以下为 Creative Commons 官方发布的 CC BY-NC 4.0 完整法律文本，未作任何修改。
+文件来源：<https://creativecommons.org/licenses/by-nc/4.0/legalcode>（正文之外仅移除首尾空行）。
 
 Attribution-NonCommercial 4.0 International
 
@@ -418,4 +468,3 @@ the avoidance of doubt, this paragraph does not form part of the
 public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
-

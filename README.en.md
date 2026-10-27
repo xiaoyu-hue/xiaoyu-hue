@@ -100,7 +100,7 @@ AI info hub · timeline / toolbox / reading
 <br><br>
 Live sky on your phone · flowing sky + clock &amp; countdown
 <br><br>
-<code>Android App</code> · <code>Web</code> · local-first · MIT (code) / CC BY-NC-SA 4.0 (docs)
+<code>Android App</code> · <code>Web</code> · local-first · Apache-2.0 (code) / CC BY 4.0 (docs)
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ It's mobile-first: an Android app (Capacitor-wrapped) plus a web version, local-
 |---|---|
 | 🔗 Live | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
 | 🛠 Tech | TypeScript (esbuild into IIFE) · vanilla JS, zero build · Capacitor Android wrapper · local-first + optional encrypted storage |
-| 📄 License | MIT (code) / CC BY-NC-SA 4.0 (docs) |
+| 📄 License | Apache-2.0 (code) / CC BY 4.0 (docs) |
 
 ---
 

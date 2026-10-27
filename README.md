@@ -175,7 +175,7 @@
 |---|---|
 | 🔗 在线 | [xiaoyu-hue.github.io/shinian](https://xiaoyu-hue.github.io/shinian/) |
 | 🛠 技术 | TypeScript（esbuild 编译进 IIFE）· 原生 JS 零构建 · Capacitor 安卓封装 · 本地优先 + 可选加密存储 |
-| 📄 协议 | MIT（代码）/ CC BY-NC-SA 4.0（文档） |
+| 📄 协议 | Apache-2.0（代码）/ CC BY 4.0（文档） |
 
 ---
 
@@ -258,7 +258,7 @@ AI 信息聚集地 · 时间线 / 工具箱 / 读书推荐
 <br><br>
 手机里的活窗景 · 流动天空 + 时钟倒数日
 <br><br>
-<code>安卓 App</code> · <code>网页版</code> · 本地优先 · MIT（代码）/ CC BY-NC-SA 4.0（文档）
+<code>安卓 App</code> · <code>网页版</code> · 本地优先 · Apache-2.0（代码）/ CC BY 4.0（文档）
 
 </td>
 </tr>
